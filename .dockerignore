@@ -1,0 +1,7 @@
+build/
+out/
+.gitignore
+Dockerfile
+.clang-format
+.vscode
+.git
