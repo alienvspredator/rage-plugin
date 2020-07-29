@@ -1,0 +1,15 @@
+[submodule "external/fmt"]
+	path = external/fmt
+	url = git@github.com:fmtlib/fmt.git
+[submodule "external/doctest"]
+	path = external/doctest
+	url = git@github.com:onqtam/doctest.git
+[submodule "external/spdlog"]
+	path = external/spdlog
+	url = git@github.com:gabime/spdlog.git
+[submodule "external/nlohmann_json"]
+	path = external/nlohmann_json
+	url = git@github.com:nlohmann/json.git
+[submodule "external/rage"]
+	path = external/rage
+	url = git@github.com:alienvspredator/ragemp-cppsdk-mirror.git

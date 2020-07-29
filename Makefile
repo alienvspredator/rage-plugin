@@ -7,8 +7,8 @@ clean:
 
 .PHONY: cmake-cache
 cmake-cache:
-	cmake . -Bbuild
+	cmake . -Bbuild -G Ninja
 
 .PHONY: build
 build:
-	cmake --build build
+	cmake --build build --parallel
