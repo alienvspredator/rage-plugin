@@ -125,6 +125,8 @@ target_include_directories(libccd
 	$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
 )
 
+find_package(Microsoft.GSL CONFIG)
+
 # We tell CMake what are the target dependencies
 target_link_libraries(libccd
 	PRIVATE
@@ -133,6 +135,7 @@ target_link_libraries(libccd
 		spdlog::spdlog
 		nlohmann_json::nlohmann_json
 		rage::rage
+		Microsoft.GSL::GSL
 )
 # Give a 'namespaced' name to libraries targets, as it can't be mistaken with
 # system libraries

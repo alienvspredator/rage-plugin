@@ -2,4 +2,4 @@
 
 #include <rage/rage.hpp>
 
-RAGE_API rage::IPlugin *InitializePlugin(rage::IMultiplayer *mp);
+RAGE_API auto InitializePlugin(rage::IMultiplayer *mp) -> rage::IPlugin *;
